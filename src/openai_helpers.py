@@ -5,7 +5,6 @@ from openai import OpenAI
 import tiktoken
 
 
-client = OpenAI(api_key='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')
 encoding = tiktoken.get_encoding("cl100k_base")
 
 
